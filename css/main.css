@@ -13,6 +13,7 @@ html {
   text-size-adjust: 100%;
 
   font-family: "PT Sans", sans-serif;
+  text-decoration-color: #000;
 }
 
 *, *::before, *::after {
@@ -25,9 +26,13 @@ html {
 }
 
 .banner {
-
+  position: relative;
+  max-height: none;
+  overflow: hidden;
 }
 
 .banner-content {
-
+  position: absolute;
+  bottom: 0%;
+  left: -15%;
 }
